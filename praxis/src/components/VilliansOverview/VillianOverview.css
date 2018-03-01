@@ -1,0 +1,15 @@
+.villian-overview-container {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.villian-overview-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+}
